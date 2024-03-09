@@ -7,6 +7,14 @@ This repository contains the implementation of Mushroom Classification, as part 
 ### Dataset Overview
 
 The dataset consists of various features describing different attributes of mushrooms, with the target variable indicating whether the mushroom is Poisonous (p) or Edible (e).
+
+### Usage
+
+1. Ensure Python environment with necessary libraries (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn) is set up.
+2. Clone this repository.
+3. Make sure the dataset ('mushrooms.csv') is available locally or uploaded to the appropriate directory within the project repository.
+4. Run the provided Python script to execute the data preprocessing, model training, and evaluation steps.
+
 ### Steps Implemented
 
 1. **Data Import and Exploration**: The dataset ('mushrooms.csv') is imported using Pandas, and the first 5 rows are displayed to understand its structure.
@@ -21,12 +29,7 @@ The dataset consists of various features describing different attributes of mush
 
 6. **Model Evaluation**: Accuracy of the classifier is calculated, and a classification report is printed, including precision, recall, and F1-score for each class. A confusion matrix is plotted using Seaborn's heatmap function to visualize the performance of the classifier.
 
-### Usage
 
-1. Ensure Python environment with necessary libraries (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn) is set up.
-2. Clone this repository.
-3. Make sure the dataset ('mushrooms.csv') is available locally or uploaded to the appropriate directory within the project repository.
-4. Run the provided Python script to execute the data preprocessing, model training, and evaluation steps.
 
 
 
