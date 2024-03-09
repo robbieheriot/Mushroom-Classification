@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This repository contains the implementation of Task 3 - Mushroom Classification, as part ofmy Masters degree. The task involves utilizing a provided dataset to classify mushrooms as either Poisonous or Edible based on their features.
+This repository contains the implementation of Mushroom Classification, as part ofmy Masters degree. The task involves utilizing a provided dataset to classify mushrooms as either Poisonous or Edible based on their features.
 
 ### Dataset Overview
 
