@@ -1,4 +1,4 @@
-#Written Report
+# Written Report
 
 ![1](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/c09dc2fb-9447-4e0c-9e2b-7aa003f7938f)
 
