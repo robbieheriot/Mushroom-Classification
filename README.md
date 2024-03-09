@@ -1,16 +1,34 @@
-# Mushroom-Classification
+# Data Wrangling (SET11121) - Coursework 2
 
-A project I completed for my Masters Degree where I had to use Machine Learning to classify mushroom species as either poisonous or edible based of there physical features.
+## Mushroom Classification Task
+
+### Introduction
+
+This repository contains the implementation of Task 3 - Mushroom Classification, as part of the coursework for the Data Wrangling module (SET11121). The task involves utilizing a provided dataset to classify mushrooms as either Poisonous or Edible based on their features.
+
+### Dataset Overview
+
+The dataset consists of various features describing different attributes of mushrooms, with the target variable indicating whether the mushroom is Poisonous (p) or Edible (e).
+### Steps Implemented
+
+1. **Data Import and Exploration**: The dataset ('mushrooms.csv') is imported using Pandas, and the first 5 rows are displayed to understand its structure.
+
+2. **Data Encoding**: Categorical data is encoded into numerical format using LabelEncoder from Scikit-learn, making it suitable for machine learning algorithms.
+
+3. **Data Splitting**: The dataset is split into training and testing sets (80% training, 20% testing) using Scikit-learn's train_test_split function. A random state of 42 is set for reproducibility.
+
+4. **Decision Tree Classification**: A DecisionTreeClassifier is implemented with entropy as the criterion and a maximum depth of 7. The classifier is trained on the training data and used to make predictions on the test set.
+
+5. **Decision Tree Visualization**: The trained decision tree classifier is visualized using the plot_tree function from Scikit-learn. Column names are set to mushroom features, and class names are defined as 'edible' or 'poisonous'.
+
+6. **Model Evaluation**: Accuracy of the classifier is calculated, and a classification report is printed, including precision, recall, and F1-score for each class. A confusion matrix is plotted using Seaborn's heatmap function to visualize the performance of the classifier.
+
+### Usage
+
+1. Ensure Python environment with necessary libraries (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn) is set up.
+2. Clone this repository.
+3. Make sure the dataset ('mushrooms.csv') is available locally or uploaded to the appropriate directory within the project repository.
+4. Run the provided Python script to execute the data preprocessing, model training, and evaluation steps.
 
 
-![1](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/c09dc2fb-9447-4e0c-9e2b-7aa003f7938f)
 
-![2](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/d04eb70d-953f-4e0b-8d8d-be334ed4372d)
-
-![3](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/9c8a73f0-5325-46b7-8668-539b9f9f91cf)
-
-![4](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/18a0ea84-e739-4c67-b2e2-c841fb523598)
-
-![5](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/4500866e-6f52-4c0e-addd-e25b1ebe6d5e)
-
-![6](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/53bb7883-1ec3-46d9-997d-a9180097a840)
