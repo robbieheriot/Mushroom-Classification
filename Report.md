@@ -1,6 +1,6 @@
 # Written Report
 
-[comment]: <> ![1](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/c09dc2fb-9447-4e0c-9e2b-7aa003f7938f)
+[//]: <> ( ![1](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/c09dc2fb-9447-4e0c-9e2b-7aa003f7938f))
 
 ![2](https://github.com/robbieheriot/Mushroom-Classification-/assets/118136425/d04eb70d-953f-4e0b-8d8d-be334ed4372d)
 
