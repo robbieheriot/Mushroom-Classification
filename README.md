@@ -1,6 +1,4 @@
-# Data Wrangling (SET11121) - Coursework 2
-
-## Mushroom Classification Task
+# Mushroom Classification Task
 
 ### Introduction
 
