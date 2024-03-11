@@ -8,7 +8,7 @@ This repository contains the implementation of Mushroom Classification, as part 
 
 The dataset consists of various features describing different attributes of mushrooms, with the target variable indicating whether the mushroom is Poisonous (p) or Edible (e).
 
-### Usage
+### Usage 
 
 1. Ensure Python environment with necessary libraries (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn) is set up.
 2. Clone this repository.
